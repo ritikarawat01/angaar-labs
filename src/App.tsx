@@ -1,7 +1,12 @@
+import Closing from './components/Closing'
+import Footer from './components/Footer'
+import Work from './components/Work'
 export default function App() {
   return (
-    <div className="App">
-      <h1>Hello, World!</h1>
-    </div>
+    <>
+      <Work />
+      <Closing />
+      <Footer />
+    </>
   );
 }
